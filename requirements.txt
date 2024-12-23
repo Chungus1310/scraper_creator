@@ -1,0 +1,5 @@
+requests
+python-docx
+google-generativeai
+ttkbootstrap
+customtkinter
