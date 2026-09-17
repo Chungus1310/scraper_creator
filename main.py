@@ -169,7 +169,7 @@ class ModernWebScraperApp:
         self.notebook.add(output_frame, text="Output")
 
         # Create a paned window to separate logs and results
-        paned = ttk.PanedWindow(output_frame, orient="vertical")
+        paned = ttk.Panedwindow(output_frame, orient="vertical")
         paned.pack(fill=BOTH, expand=YES)
 
         # Progress Section
